@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AndroidVRWebview/Scenes/main.unity
+    guid: 432f9dbef18974045b2bb5446f991eb0
