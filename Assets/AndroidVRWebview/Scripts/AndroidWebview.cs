@@ -80,8 +80,7 @@ public class AndroidWebview : MonoBehaviour {
         if (mainRenderer.material == null) {
             Debug.LogError ("No material for surface");
         }
-
-        nativeTexture = Texture2D.CreateExternalTexture (websiteWidth, websiteHeight, TextureFormat.RGBA32, true, false, IntPtr.Zero);
+        nativeTexture = new Texture2D(websiteWidth, websiteHeight, TextureFormat.RGBA32, true, false);        
 
         IssuePluginEvent (SurfaceEvent.Init);
     }
